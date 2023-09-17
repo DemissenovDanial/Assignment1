@@ -1,0 +1,87 @@
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+    padding: auto;
+    margin-left: 180px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: black;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.2em;
+}
+
+.product h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+}

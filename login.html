@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Login - Online Store</title>
+</head>
+<body>
+    <header>
+        <h1>Login to Online Store</h1>
+        <nav>
+            <ul>
+                <li><a href="1.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="https://www.instagram.com/">About Us</a></li>
+                <li><a href="https://vk.com/">Contact</a></li>
+            </ul>
+            <ol>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="registration.html">Registration</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Login to Your Account</h2>
+        <form action="login_process.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </main>    
+
+    <footer>
+        <p>&copy; 2023 Online Store</p>
+    </footer>
+</body>
+</html>
